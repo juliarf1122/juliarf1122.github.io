@@ -4,7 +4,33 @@
 .links {
     color:rgb(41, 19, 138)
 }
+
+body {
+    background-color: rgb(12, 12, 14);
+}
+
 .centro {
     text-align: center;
     color: white;
+}
+
+.container {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.animacao-subir {
+    animation: subir 1s ease-in;
+}
+
+@keyframes subir {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 100;
+    }
 }
