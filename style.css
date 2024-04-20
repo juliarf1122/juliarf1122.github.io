@@ -5,10 +5,6 @@
     color:rgb(41, 19, 138)
 }
 
-body {
-    background-color: rgb(12, 12, 14);
-}
-
 .centro {
     text-align: center;
     color: white;
@@ -33,4 +29,15 @@ body {
         transform: translateY(0);
         opacity: 100;
     }
+}
+.fontsabrina1 {
+    font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  
+}
+.fontsabrina2 {
+    font-family: "Protest Revolution", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
